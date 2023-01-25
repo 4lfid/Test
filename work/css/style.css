@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: Montserrat;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+/* стили для страниц авторизации и регистрации */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: blueviolet;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+.input input{
+    height: 4vh;
+    width: 32vh;
+    margin: 0.2vh;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 2vh;
+}
+.input_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    background: none;
+    margin-top: 1vh;
+    border: 0px;
+}
+.input_button:hover{
+    text-decoration: underline;
+}
+.next_input{
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 2vh;
+}
+.next_input:hover{
+    text-decoration: underline;
+}
+.msg{
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 2vh;
+}
+
+/* стили для страницы формы */
+
+.forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input_tema{
+    height: 2.2vh;
+    width: 33vh;
+    font-size: 2vh;
+    border-radius: 100px;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+.input_text{
+    height: 10vh;
+    width: 33vh;
+    font-size: 2vh;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 0.6vh;
+    padding: 1vh;
+}
+.input_file{
+    display: none;
+}
+.input_file_button{
+    padding: 1vh;
+    color: white;
+    font-size: 2vh;
+    margin-top: 0.6vh;
+}
+.input_file_button:hover{
+    text-decoration: underline;
+}
+
+/* стили для страницы со списком заявок */
+
+.name_table{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 160vh;
+}
+.name_table p{
+    color: white;
+    font-size: 2vh;
+}
+.table_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 160vh;
+    height: 80vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+}
+.table_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 160vh;
+    height: 7vh;
+    border-radius: 30px;
+    margin-top: 1vh;
+    padding: 2vh;
+    background-color: white;
+}
+.info_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    overflow: auto;
+}
+.info_time_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    overflow: auto;
+}
+.info_time_msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    overflow: auto;
+}
+.info_user_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    overflow: auto;
+}
+.info_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    overflow: auto;
+}
+.info_tema{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    overflow: auto;
+}
+.info_text{
+    width: 40vh;
+    height: 7vh;
+    word-break: break-all;
+    overflow: auto;
+}
+.info_file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    overflow: auto;
+}
+
+/* стили для страницы с ошибкой */
+
+.error{
+    color: white;
+    font-weight: 600;
+    font-size: 4vh;
+}
+.img_error{
+    height: 25vh;
+}
+
+/* стили для страницы с успешной отправкой заявки */
+
+.good{
+    color: white;
+    font-weight: 600;
+    font-size: 4vh;
+}
+.img_good{
+    height: 25vh;
+}
+.ext{
+    color: white;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.ext:hover{
+    text-decoration: underline;
+}
